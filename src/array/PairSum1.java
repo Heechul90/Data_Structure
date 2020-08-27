@@ -4,7 +4,11 @@ import com.sun.org.apache.xerces.internal.impl.dv.xs.BaseDVFactory;
 
 import java.util.Arrays;
 
-public class GFG {
+/*
+array이 안에서 임의의 두 수를 더한 값이 내가 제시한 n값과 같은 같이 있는지 찾아내는것
+ */
+
+public class PairSum1 {
     // Java program to check if given array has 2 elements whose sum is equal to the given value
 
     // Function to check if array has 2 elements whose sum is equal to the given value
@@ -31,7 +35,7 @@ public class GFG {
     // Driver Code
     public static void main(String[] args) {
         int A[] = {1, 4, 45, 6, 10, -8};
-        int n = 16;
+        int n = 50;
         int arr_size = A.length;
 
         // Function callting
