@@ -20,7 +20,7 @@ public class Kadane3 {
 
     // Driver program to test maxSubArraySum
     public static void main(String[] args) {
-        int a[] = {2, 4, -3, -1, -2, 1, 5, -3};
+        int a[] = {-2, -3, 4, -1, -2, 1, 5, -3};
         int n = a.length;
         int max_sum = maxSubArraySum(a, n);
         System.out.println("Maximum contiguous sum is "+ max_sum);

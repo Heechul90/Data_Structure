@@ -1,7 +1,7 @@
 package array;
 
 public class Kadane4 {
-    // Jva program to print largest contiguous array sum
+    // Java program to print largest contiguous array sum
 
     static void maxSubArraySum(int a[], int size) {
         int max_so_far = Integer.MIN_VALUE,
@@ -30,7 +30,7 @@ public class Kadane4 {
 
     // Driver Code
     public static void main(String[] args) {
-        int a[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int a[] = {-2, -3, 4, -1, -2, 1, 5, -3};
         int n = a.length;
         maxSubArraySum(a, n);
     }

@@ -9,7 +9,7 @@ public class Kadane2 {
     // Java program to print largest contiguous array sum
 
     public static void main(String[] args) {
-        int[] a = {2, 4, -3, -1, -2, 1, 5, -3};
+        int[] a = {-2, -3, 4, -1, -2, 1, 5, -3};
         int size = a.length;
         System.out.println("Maximum contiguous sum is " + maxSubArraySum(a, size));
     }
@@ -26,9 +26,6 @@ public class Kadane2 {
         // Do not compare for all elements. Compare only when max_ending_here > 0
             else if (max_so_far < max_ending_here)
                 max_so_far = max_ending_here;
-//            System.out.println("i: "+i+"  "+"max_so_far: "+max_so_far);
-//            System.out.println("i: "+i+"  "+"max_ending_here: "+max_ending_here);
-//            System.out.println("----------------");
         }
         return max_so_far;
     }
