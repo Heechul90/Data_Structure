@@ -19,3 +19,7 @@ public class MissingNumber2 {
         System.out.println(getMissingNo(arr, arr.length));
     }
 }
+
+
+
+
