@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.6.0/split.min.js"></script>
+    </head>
+    <body>
+    <div class="navbar>"><span>Split.js Tutorial</span></div>
+    <div class="content">
+
+        <div class="cell a">A</div>
+        <div class="cell b">B</div>
+        <div class="cell c">C</div>
+
+    </div>
+    <script>
+        Split(['.a','.b','c'],{
+        gutterSize:20,
+        sizes: [25,25,50],
+        minSize:[300,300,300],
+        direction:"vertical"
+        });
+    </script>
+    </body>
+</html>

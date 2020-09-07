@@ -17,7 +17,7 @@ public class OddOccurrence1 {
             for (int j=0; j<arr_size; j++) {
                 if (arr[i] == arr[j])
                     count++;
-//                System.out.println("i: "+i);
+                System.out.println("i: "+i);
 //                System.out.println("j: "+j);
 //                System.out.println("count: "+count);
             }
